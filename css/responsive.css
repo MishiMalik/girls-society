@@ -1,0 +1,66 @@
+@media only screen and (max-width:768px){
+    
+.main-heading h1{
+    font-size: 20px;
+} 
+.main-heading p{
+    font-size: 16px;
+}
+.main-heading button{
+    padding: 15px 20px;
+}
+.main-heading button a{
+ 
+   font-size: 14px;
+}
+.f-30{
+    font-size: 20px;
+}
+.f-17{
+    font-size: 14px;
+}
+.f-40{
+    font-size: 20px;
+}
+.f-20{
+    font-size: 16px;
+}
+.f-25{
+    font-size: 16px;
+}
+.footer{
+    padding: 30px 0px;
+}
+.input{
+    margin-bottom: 20px;
+}
+.main-heading h2 {
+    font-size: 30px;
+    
+}
+.no-padding{
+    padding-top: 0px !important;
+    margin-top: 30px !important;
+}
+.padding{
+    padding-top: 20px;
+}
+.flex-md-column {
+    flex-direction: column;
+}
+}
+@media only screen and (max-width:374px){
+    .main-heading button{
+        padding: 10px 15px;
+    }
+    .main-heading button a{
+     
+       font-size: 12px;
+    }
+    .f-25{
+        font-size: 15px;
+    }
+    .f-20{
+        font-size: 14px;
+    }
+}
