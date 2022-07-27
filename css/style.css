@@ -14,6 +14,22 @@ body{
     align-items: center;
     position: relative;
 }
+.social-icons{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+    background-color: #FD387C;
+    border-radius: 100%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
 .logo-row{
     position: absolute;
     top: 0px;
@@ -23,6 +39,7 @@ body{
     width: 300px;
     border-radius: 0px 0px 80% 0px;
     border-right: 1px solid white;
+    z-index: 1;
 }
 .logo-row-2{
     display: none;
@@ -36,11 +53,15 @@ body{
     font-size: 40px;
     font-weight: 600;
     color: white;
+    position: relative;
+    z-index: 5;
 } 
 .main-heading h1 a{
     font-size: 40px;
     font-weight: 600;
     color: white !important;
+    position: relative;
+    z-index: 5;
 } 
 .main-heading p{
     font-size: 20px;
@@ -122,7 +143,7 @@ body{
 }
 /* footer */
 .footer{
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
     min-height: 300px;
     background: linear-gradient(to right bottom, rgba(132, 79, 238, 0.929), rgba(132, 79, 238, 0.929)), url('../images/Concert2.jpg');
     background-position:center;
@@ -162,10 +183,20 @@ body{
     right: 40px;
 }
 .footer-logo{
-    height: 200px;
+    height: 150px;
 }
+.border{
+    border-top: 1px solid white;
+}
+.news-line{
+    width: 100%;
+    border-top: 1px dotted #FD387C;
+    height: 1x;
+}
+.no-wrap{
+    display: flex;
 
-
+}
 
 
 
