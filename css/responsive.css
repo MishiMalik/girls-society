@@ -1,109 +1,136 @@
-@media only screen and (max-width:1024px){
-    .logo-row{
+@media only screen and (max-width:1024px) {
+    .logo-row {
         display: none;
     }
-    .logo-row-2{
+
+    .logo-row-2 {
         position: absolute;
         top: 0px;
         left: 0px;
-        background-color:rgba(253, 56, 125, 0.866);
+        background-color: rgba(253, 56, 125, 0.866);
         height: 140px;
         width: 140px;
         border-radius: 0px 0px 80% 0px;
         border-right: 0px solid white;
         display: flex;
     }
-    .main-heading h1{
-        font-size: 20px;
-    } 
-    .main-heading h1 a{
+
+    .main-heading h1 {
         font-size: 20px;
     }
-    .logo{
+
+    .main-heading h1 a {
+        font-size: 20px;
+    }
+
+    .logo {
         width: 100px;
         height: 100px;
         margin-top: 10px;
     }
 }
-@media only screen and (max-width:768px){
-    
-.main-heading h1{
-    font-size: 20px;
-} 
-.main-heading p{
-    font-size: 16px;
+
+@media only screen and (max-width:768px) {
+
+    .main-heading h1 {
+        font-size: 20px;
+    }
+
+    .main-heading p {
+        font-size: 16px;
+    }
+
+    .main-heading button {
+        padding: 15px 20px;
+    }
+
+    .main-heading button a {
+
+        font-size: 14px;
+    }
+
+    .f-30 {
+        font-size: 20px;
+    }
+
+    .f-17 {
+        font-size: 14px;
+    }
+
+    .f-40 {
+        font-size: 20px;
+    }
+
+    .f-20 {
+        font-size: 16px;
+    }
+
+    .f-25 {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 30px 0px;
+    }
+
+    .input {
+        margin-bottom: 20px;
+    }
+
+    .main-heading h2 {
+        font-size: 30px;
+
+    }
+
+    .no-padding {
+        padding-top: 0px !important;
+        margin-top: 30px !important;
+    }
+
+    .padding {
+        padding-top: 20px;
+    }
+
+    .flex-md-column {
+        flex-direction: column;
+    }
+
+    .f-60 {
+        font-size: 30px !important;
+    }
 }
-.main-heading button{
-    padding: 15px 20px;
-}
-.main-heading button a{
- 
-   font-size: 14px;
-}
-.f-30{
-    font-size: 20px;
-}
-.f-17{
-    font-size: 14px;
-}
-.f-40{
-    font-size: 20px;
-}
-.f-20{
-    font-size: 16px;
-}
-.f-25{
-    font-size: 16px;
-}
-.footer{
-    padding: 30px 0px;
-}
-.input{
-    margin-bottom: 20px;
-}
-.main-heading h2 {
-    font-size: 30px;
-    
-}
-.no-padding{
-    padding-top: 0px !important;
-    margin-top: 30px !important;
-}
-.padding{
-    padding-top: 20px;
-}
-.flex-md-column {
-    flex-direction: column;
-}
-.f-60{
-    font-size: 30px !important;
-}
-}
-@media only screen and (max-width:474px){
-    .main-heading h1{
+
+@media only screen and (max-width:474px) {
+    .main-heading h1 {
         margin-top: 40px;
-    } 
-    .main-heading h1 a{
+    }
+
+    .main-heading h1 a {
         margin-top: 40px;
         color: white !important;
-    } 
+    }
 }
-@media only screen and (max-width:374px){
-    .main-heading h1{
+
+@media only screen and (max-width:374px) {
+    .main-heading h1 {
         margin-top: 40px;
         font-weight: 400 !important;
-    } 
-    .main-heading button{
+    }
+
+    .main-heading button {
         padding: 10px 15px;
     }
-    .main-heading button a{
-     
-       font-size: 12px;
+
+    .main-heading button a {
+
+        font-size: 12px;
     }
-    .f-25{
+
+    .f-25 {
         font-size: 15px;
     }
-    .f-20{
+
+    .f-20 {
         font-size: 14px;
     }
 }
