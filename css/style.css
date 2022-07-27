@@ -30,6 +30,11 @@ body{
     align-items: center;
     margin-right: 10px;
 }
+.icon:hover{
+   
+    background-color: #f10054;
+   
+}
 .logo-row{
     position: absolute;
     top: 0px;
@@ -74,6 +79,9 @@ body{
     border-radius: 25px;
     border: none;
     border: 1px solid white;
+}
+.main-heading button:hover{
+    background-color: #f10054;
 }
 .main-heading button a{
    color: white !important;
