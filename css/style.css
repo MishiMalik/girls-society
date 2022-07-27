@@ -12,8 +12,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-
+.logo-row{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(253, 56, 125, 0.866);
+    height: 300px;
+    width: 300px;
+    border-radius: 0px 0px 80% 0px;
+}
+.logo{
+    width: 100%;
+    height: 220px;
+    margin-top: 10px;
+}
 .main-heading h1{
     font-size: 30px;
     font-weight: 600;
@@ -181,4 +195,8 @@ body{
 }
 .no-decoration:hover{
     border-bottom: 1px dotted #FD387C;
+}
+.fonts-lobester{
+    font-family: 'Lobster', cursive;
+    font-size: 60px !important;
 }
