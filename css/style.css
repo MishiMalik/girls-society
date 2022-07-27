@@ -91,10 +91,11 @@ body{
 
 /* cards section */
 .card{
-    background-color:rgba(132, 79, 238, 0.529);
+    /* background-color:rgba(132, 79, 238, 0.529); */
+    border-radius: 100%;
 }
 .card:hover{
-    background-color:blueviolet;
+    background-color:#FD387C;
 }
 .card-img {
     height: 350px;
@@ -103,17 +104,21 @@ body{
     background-position: center;
     position: relative;
     z-index: 1;
+    border-radius: 100%;
+    padding: 10px;
+    border: 2px solid #FD387C;
 }
 .card-img img{
    height: 100%;
    width: 100%;
    position: relative;
    bottom: 0;
+   border-radius: 100%;
 }
 
 .card-text{
     position: absolute;
-    padding: 15px 10px;
+    padding: 15px 5px 20px 5px;
     color: white;
     text-decoration: none;
     z-index: 4;
@@ -121,6 +126,7 @@ body{
     bottom: 0px;
     left: 0px;
     right: 0px;
+    text-align: center;
 }
 .card-link{
     text-decoration: none;
