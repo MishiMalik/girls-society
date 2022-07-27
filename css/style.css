@@ -35,7 +35,12 @@ body{
 .main-heading h1{
     font-size: 40px;
     font-weight: 600;
-    color: #FD387C;
+    color: white;
+} 
+.main-heading h1 a{
+    font-size: 40px;
+    font-weight: 600;
+    color: white !important;
 } 
 .main-heading p{
     font-size: 20px;
