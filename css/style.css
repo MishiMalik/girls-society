@@ -24,13 +24,16 @@ body{
     border-radius: 0px 0px 80% 0px;
     border-right: 1px solid white;
 }
+.logo-row-2{
+    display: none;
+}
 .logo{
     width: 100%;
     height: 220px;
     margin-top: 10px;
 }
 .main-heading h1{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
     color: #FD387C;
 } 
@@ -114,6 +117,7 @@ body{
 }
 /* footer */
 .footer{
+    padding: 50px 0px;
     min-height: 300px;
     background: linear-gradient(to right bottom, rgba(132, 79, 238, 0.929), rgba(132, 79, 238, 0.929)), url('../images/Concert2.jpg');
     background-position:center;
@@ -152,7 +156,9 @@ body{
     top: 10px;
     right: 40px;
 }
-
+.footer-logo{
+    height: 200px;
+}
 
 
 
@@ -185,6 +191,9 @@ body{
 .f-30{
     font-size: 30px;
 }
+.f-60{
+    font-size: 60px !important;
+}
 .clr-pink{
     color: #FD387C;
 }
@@ -199,5 +208,6 @@ body{
 }
 .fonts-lobester{
     font-family: 'Lobster', cursive;
-    font-size: 60px !important;
+    font-weight: 200 !important;
+   
 }
